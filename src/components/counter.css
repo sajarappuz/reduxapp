@@ -1,0 +1,38 @@
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    margin-top: 150px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    font-weight: 600;
+
+}
+.cntbtn{
+    display: flex;
+    flex-direction: row;
+
+}
+.cntbtn .inbtn{
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.cntbtn .debtn{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+}
